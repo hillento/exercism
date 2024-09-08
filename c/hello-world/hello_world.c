@@ -3,5 +3,5 @@
 // Define the function itself.
 const char *hello(void)
 {
-   return "Hello, I'm making this with NeoVim!";
+   return "Hello, World!";
 }
