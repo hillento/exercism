@@ -1,0 +1,12 @@
+#ifndef ALL_YOUR_BASE_H
+#define ALL_YOUR_BASE_H
+
+#define DIGITS_ARRAY_SIZE 64
+
+#include <stdint.h>
+#include <math.h>
+#include <stddef.h>
+
+size_t rebase(int8_t *digits, int16_t input_base, int16_t output_base, int8_t input_length);
+
+#endif
